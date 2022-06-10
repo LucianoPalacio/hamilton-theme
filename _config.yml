@@ -1,0 +1,35 @@
+title: Hamilton
+description: A minimal and beautiful Jekyll theme best for writing and note-taking.
+author: Your Name
+avatar: #Index page image
+email: Your Email
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+paginate: 10
+
+# Uncomment the below line and set the tracking ID for enabling Google Analytics
+# 
+# google_analytics: 
+
+# Uncomment the below lines and set the Disqus shortname for enabling Disqus
+# 
+# disqus:
+
+# Jekyll
+# ======
+exclude:
+  - scripts/
+  - README.md
+  - jekyll-theme-hamilton.gemspec
+
+logo: # Icon image
+
+google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
+lang: en
+skin: midnight #this you can chooice a skin. The options are: dayligth, midnight, sunrise and sunset.
+# You can also customize a new skin, for example, a skin called solarized. You need to copy _sass/hamilton/skins/daylight.scss 
+#into your repository and then rename it to solarized.scss, and adjust some colors in that file. 
+#Finally, specify skin: solarized in _config.yml.
